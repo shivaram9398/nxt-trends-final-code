@@ -1,0 +1,20 @@
+.container-summary {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15px;
+}
+
+.h1 {
+  font-size: 20px;
+}
+p {
+  font-weight: 500;
+}
+
+.checkout {
+  background-color: blue;
+  height: 28px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
