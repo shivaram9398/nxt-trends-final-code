@@ -77,7 +77,7 @@ class App extends Component {
     }))
   }
 
-  decrementCartItemQuantity = id => {
+  decrementCartItemQuantity = id => { //quantity decrement in the cart
     this.setState(prev => ({
       cartList: prev.cartList.map(each => {
         if (each.id === id) {
